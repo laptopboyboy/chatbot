@@ -3,8 +3,9 @@ from openai import OpenAI
 
 #chatbot 기능 구현
 
+
 client = OpenAI(
-    api_key=KEY
+    api_key=OPENAI_API_KEY
 )
 
 instructions = """
